@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+	<div class="row">
+		<div class="category-stock column">
+			<h6 class="category-stock__header">
+				<span class="header__title">Delete Stock</span>
+				<span class="header__bar"></span>
+			</h6>
+			<form action="#" method="post">
+				<h5 class="category-item__message"> Do you want to delete {{categoryItem.name}}?</h5>
+				<a href="{{url_for('showCategoryItem', category_id = categoryItem.category_id ,item_id = categoryItem.id )}}" class="button button-outline">Back</a>
+				<input type="submit" value="Delete">
+			</form>
+		</div>
+	</div>
+
+{% endblock %}
