@@ -1,7 +1,7 @@
 Linux Server Configuration
 
 # Step 1: make a Ubuntu Linux server instance on Amazon Light sail
-- I did Ubuntu 18.04 LTS
+- Ubuntu 18.04 LTS
 
 ##
 password for all instances should be "udacity"
