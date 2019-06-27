@@ -1,4 +1,5 @@
-Linux Server Configuration
+# Linux Server Configuration
+    - Chris Rectenwald 
 
 # Step 1: make a Ubuntu Linux server instance on Amazon Light sail
     - Ubuntu 18.04 LTS
